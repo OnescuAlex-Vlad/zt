@@ -1,5 +1,5 @@
 workflow:
-  name: "Bluetooth Connection"
+  name: "Bluetooth Connection Workflow"
   steps:
     - name: "Connect to Bluetooth"
       action: "connect_bluetooth"
@@ -7,9 +7,3 @@ workflow:
         bluetooth_device: "MySpeaker"
       output:
         connection_status: "connected"
-    - name: "LLM Handshake"
-      action: "llm_handshake"
-      input:
-        connection_status: "connected"
-      output:
-        handshake_result: "success"
