@@ -114,6 +114,16 @@ Actions are predefined operations such as connecting to a Bluetooth device or pe
 
 InfluxDB metrics can be viewed to track the execution time of actions, success rates, and failure rates. You can integrate Grafana with InfluxDB to visualize these metrics.
 
+## Infrastructure with Pulumi
+
+CoreBit uses Pulumi to manage its infrastructure. Pulumi allows us to declaratively define and manage cloud resources like PostgreSQL, InfluxDB, and networking.
+
+### Prerequisites
+
+- Install the Pulumi CLI:
+  ```bash
+  curl -fsSL https://get.pulumi.com | sh
+
 ## Contributing
 
 Contributions to CoreBit are welcome! To contribute, follow these steps:
