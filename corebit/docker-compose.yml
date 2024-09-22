@@ -1,0 +1,10 @@
+version: "3"
+services:
+  corebit:
+    build: .
+    container_name: corebit_service
+    volumes:
+      - .:/app
+    command: ["/corebit"]
+    ports:
+      - "8080:8080"
