@@ -1,4 +1,4 @@
-module github.com/example/corebit
+module github.com/aonescu/zt
 
 go 1.22.2
 
