@@ -1,7 +1,3 @@
-Here's a `README.md` file for the CoreBit project:
-
----
-
 # CoreBit
 
 CoreBit is an extensible Large Language Model (LLM)-driven system designed to facilitate secure interactions between personal profiles, external systems, and operations. It allows users to execute workflows consisting of multiple actions (predefined operational units) based on YAML configuration. The system enables the chaining of commands, secure exchange of data, and connection to various services like Bluetooth devices or payment systems.
@@ -136,7 +132,3 @@ Contributions to CoreBit are welcome! To contribute, follow these steps:
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This `README.md` should cover the basic functionality of the CoreBit project and guide others to get started quickly with installation and usage.
